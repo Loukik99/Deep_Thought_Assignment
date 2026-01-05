@@ -18,11 +18,11 @@
   height: calc(100vh - 70px);
 }
 
-/* ===== Journey Board ===== */
+/* Journey Board */
 
 .journey-board {
   position: relative;
-  width: 60px;                     /* collapsed by default */
+  width: 60px;                     
   background: #f9f9f9;
   border-right: 1px solid #ddd;
   transition: width 0.3s ease;
@@ -44,10 +44,10 @@
   border: none;
   font-size: 18px;
   cursor: pointer;
-  color: transparent;              /* hide original glyph */
+  color: transparent;             
 }
 
-/* Arrow via CSS (collapsed) */
+/* Arrow collapsed */
 .jb-toggle::before {
   content: "▶";
   color: #000;
@@ -74,14 +74,14 @@
   transform: rotate(0deg);
 }
 
-/* ===== Content ===== */
+/* Content */
 
 .content-area {
   flex: 1;
   padding: 20px;
 }
 
-/* ===== Floating Actions ===== */
+/* Floating Actions */
 
 .floating-actions {
   position: fixed;
